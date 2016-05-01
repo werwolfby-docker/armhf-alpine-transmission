@@ -1,4 +1,4 @@
-FROM hypriot/rpi-alpine-scratch
+FROM container4armhf/armhf-alpine
 MAINTAINER Alexander Puzynia <werwolf.by@gmail.com>
 
 RUN apk update && \
